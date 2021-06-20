@@ -19,9 +19,8 @@ const options: cors.CorsOptions = {
 };
 
 // Then pass these options to cors:
-app.use(cors(options));
+app.use(cors());
 
-app.use(cors(options));
 app.use(express.json());
 
 // setup express app here
