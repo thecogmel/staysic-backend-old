@@ -9,7 +9,7 @@ module.exports = {
   },
   synchronize: true,
   logging: false,
-  entities: ['build/entity/**/*.js'],
+  entities: ['**/src/entity/*{.ts,.js}'],
   migrations: ['build/database/migration/**/*.js'],
   subscribers: ['build/subscriber/**/*.js'],
   cli: {
