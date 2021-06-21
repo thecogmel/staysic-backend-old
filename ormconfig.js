@@ -1,13 +1,6 @@
 module.exports = {
   type: 'postgres',
-  host: process.env.DB_HOST,
-  port: 5432,
-  username: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME,
-  extra: {
-    ssl: true,
-  },
+  url: process.env.DATABASE_URL,
   synchronize: true,
   logging: false,
   entities: ['src/entity/**/*.ts'],
