@@ -13,8 +13,8 @@ module.exports = {
   migrations: ['build/database/migration/**/*.js'],
   subscribers: ['build/subscriber/**/*.js'],
   cli: {
-    entitiesDir: 'src/entity',
-    migrationsDir: 'src/database/migration',
-    subscribersDir: 'src/subscriber',
+    entitiesDir: 'build/entity',
+    migrationsDir: 'build/database/migration',
+    subscribersDir: 'build/subscriber',
   },
 };
